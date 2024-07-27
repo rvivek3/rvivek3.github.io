@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Machine Learning Researcher</title>
+    <title>Rajan - Machine Learning Researcher</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -11,53 +11,65 @@
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="home">
-            <h1>Your Name</h1>
-            <p>Machine Learning Researcher & Developer</p>
-        </section>
-
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>Project 1</h3>
-                    <p>Brief description of your project.</p>
-                </div>
-                <div class="project-card">
-                    <h3>Project 2</h3>
-                    <p>Brief description of your project.</p>
-                </div>
-                <!-- Add more project cards as needed -->
+        <section id="home" class="intro-section">
+            <div class="profile-image">
+                <img src="images/self-pic.jpg" alt="Rajan">
+                <center>
+                    <h2>Rajan Vivek</h2>
+                </center>
             </div>
-        </section>
-
-        <section id="research">
-            <h2>Research</h2>
-            <ul>
-                <li>Research Paper 1 - Brief description</li>
-                <li>Research Paper 2 - Brief description</li>
-                <!-- Add more research items as needed -->
-            </ul>
-        </section>
-
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: your.email@example.com</p>
-            <p>LinkedIn: <a href="#">Your LinkedIn Profile</a></p>
-            <p>GitHub: <a href="#">Your GitHub Profile</a></p>
+            <div class="content">
+                <div class="intro-text">
+                    <!-- <h1>Hi, I'm Rajan</h1> -->
+                    <p>I'm an AI researcher and engineer at <a href="https://contextual.ai/">Contextual AI</a>, where we are building enterprise-grade AI with retrieval-augmented foundation models. </p>
+                    <br>
+                    <p>
+                        Previously, I was an AI researcher and MSCS student at Stanford, advised by <a href="https://douwekiela.github.io">Douwe Kiela,</a> <a href="https://cs.stanford.edu/~diyiy/">Diyi Yang,</a> and <a href="https://kawine.github.io">Kawin Ethayarajh.</a> I also worked on video foundation models at Scale AI,
+                        document understanding models at JP Morgan, and ML for large graphs and scene segmentation at Lockheed Martin. Before that, I studied electrical engineering at Georgia Tech and 
+                        researched explainable AI with <a href="https://research.gatech.edu/sonia-chernova">Sonia Chernova.</a>
+                    </p>
+                    <br>
+                    <p>
+                        Some of my interests are deep learning, systems, racquet sports, physics, consciousness, and psychology. 
+                    </p>
+                </div>
+                <div id="publications">
+                    <h2>Publications</h2>
+                    <br>
+                    <ul class="publications-list">
+                        <li class="publication-item">
+                            <img src="images/anchor_point.png" alt="Paper 1 thumbnail">
+                            <div class="publication-details">
+                                <h3>Anchor Points: Benchmarking Models with Much Fewer Examples</h3>
+                                <p class="authors"><b>Rajan Vivek</b>, Kawin Ethayarajh, Diyi Yang, Douwe Kiela<br>EACL 2024 Main (Long Paper, Oral) <br> [<a href="https://arxiv.org/abs/2309.08638">paper</a>]  [<a href="https://github.com/rvivek3/AnchorPoints">code</a>]</p>
+                                <!-- <p class="authors">EACL 2024 Long Paper (Oral)</p> -->
+                                <p class="description">We discover that language model predictions are low-rank: correct class probabilities are strongly correlated on many pairs of examples. We exploit this to benchmark language models with much fewer examples and infer performance on specific, unseen points. </p>
+                            </div>
+                        </li>
+                        <li class="publication-item">
+                            <img src="images/EAR.png" alt="Paper 2 thumbnail">
+                            <div class="publication-details">
+                                <h3>Explainable Activity Recognition for Smart Home Systems</h3>
+                                <p class="authors">Devleena Das, Yasutaka Nishimura, <b>Rajan Vivek</b>, Naoto Takeda, Sean T. Fish, Thomas Ploetz, Sonia Chernova <br> ACM Transactions on Interactive Intelligent Systems, Volume 13, Issue 2, 2023 <br>[<a href="https://dl.acm.org/doi/full/10.1145/3561533">paper</a>] </p>
+                                <p class="description">We present a framework to generalize leading explainable AI techniques (Local Interpretable Model-agnostic Explanations, SHapley Additive exPlanations (SHAP), Anchors) to time series data and generate natural language explanations of human activities. We conduct user studies and more broadly discuss AI + smart home-assisted care of the sick and aging. </p>
+                            </div
+                        </li>
+                        <!-- Add more publication items as needed -->
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2024 Rajan. All rights reserved.</p>
     </footer>
 </body>
 </html>
