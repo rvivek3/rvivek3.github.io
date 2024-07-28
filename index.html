@@ -12,7 +12,10 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#publications">Publications</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact">Resume</a></li>
+                <li><a href="https://www.linkedin.com/in/rajanvivek717/">LinkedIn</a></li>
+                <li><a href="https://github.com/rvivek3">GitHub</a></li>
+                <li><a href="https://x.com/RajanVivek52643">Twitter</a></li>
             </ul>
         </nav>
     </header>
@@ -50,7 +53,7 @@
                                 <h3>Anchor Points: Benchmarking Models with Much Fewer Examples</h3>
                                 <p class="authors"><b>Rajan Vivek</b>, Kawin Ethayarajh, Diyi Yang, Douwe Kiela<br>EACL 2024 Main (Long Paper, Oral) <br> [<a href="https://arxiv.org/abs/2309.08638">paper</a>]  [<a href="https://github.com/rvivek3/AnchorPoints">code</a>]</p>
                                 <!-- <p class="authors">EACL 2024 Long Paper (Oral)</p> -->
-                                <p class="description">We discover that language model predictions are low-rank: correct class probabilities are strongly correlated on many pairs of examples. We exploit this to benchmark language models with much fewer examples and infer performance on specific, unseen points. </p>
+                                <p class="description">We discover that language model predictions are low-rank: correct class probabilities are strongly correlated on many pairs of examples. We exploit this to benchmark language models (on GLUE and MMLU) with much fewer examples and infer performance on specific, unseen points. </p>
                             </div>
                         </li>
                         <li class="publication-item">
@@ -59,8 +62,90 @@
                                 <h3>Explainable Activity Recognition for Smart Home Systems</h3>
                                 <p class="authors">Devleena Das, Yasutaka Nishimura, <b>Rajan Vivek</b>, Naoto Takeda, Sean T. Fish, Thomas Ploetz, Sonia Chernova <br> ACM Transactions on Interactive Intelligent Systems, Volume 13, Issue 2, 2023 <br>[<a href="https://dl.acm.org/doi/full/10.1145/3561533">paper</a>] </p>
                                 <p class="description">We present a framework to generalize leading explainable AI techniques (Local Interpretable Model-agnostic Explanations, SHapley Additive exPlanations (SHAP), Anchors) to time series data and generate natural language explanations of human activities. We conduct user studies and more broadly discuss AI + smart home-assisted care of the sick and aging. </p>
-                            </div
+                            </div>
                         </li>
+                        
+                        <!-- Add more publication items as needed -->
+                    </ul>
+                </div>
+
+                <div id="Publications">
+                    <h2>Projects</h2>
+                    <br>
+                    <ul class="publications-list">
+                        <li class="publication-item">
+                            <img src="images/TTT_ASR.png" alt="Paper 1 thumbnail">
+                            <div class="publication-details">
+                                <h3>Test-Time Training for Speaker Adaptation in Austomatic Speech Recognition Systems</h3>
+                                <p class="authors"><b>Rajan Vivek</b>, Matt Harvill<br>CS 224S Spring 2024. (Top 4 in Class) <br> [<a href="reports/CS224S_Project_Final_Report.pdf">paper</a>]</p>
+                                <!-- <p class="authors">EACL 2024 Long Paper (Oral)</p> -->
+                                <p class="description">We adapt test-time training with self-supervision (<a href="https://arxiv.org/abs/1909.13231">Sun et al. 2019</a>) to the Wav2Vec2 audio foundation model, achieving reliable adaption to different speakers at test time. </p>
+                            </div>
+                        <li class="publication-item">
+                            <img src="images/cs330.png" alt="Paper 1 thumbnail">
+                            <div class="publication-details">
+                                <h3>Synthetic Data Generation for Few Shot Learning</h3>
+                                <p class="authors"><b>Rajan Vivek</b>, Vaishnavi Shrivastava, Ofure Ebhomielen<br>CS 330 Fall 2022 (Best Project Award) <br> [<a href="reports/CS330_Final_Report.pdf">paper</a>]</p>
+                                <!-- <p class="authors">EACL 2024 Long Paper (Oral)</p> -->
+                                <p class="description">We propose a meta learning-based synthetic data generation strategy where image foundation models are optimized to generate or augment training data such that the performance of a downstream classifier improves. </p>
+                            </div>
+                        </li>
+                        <li class="publication-item">
+                            <img src="images/NL_pixels.png" alt="Paper 1 thumbnail">
+                            <div class="publication-details">
+                                <h3>Natural Language Generation with Pixels</h3>
+                                <p class="authors">Gautam Mittal, <b>Rajan Vivek</b><br>CS 224N Winter 2023<br> [<a href="reports/CS_224N__Final_Report.pdf">paper</a>]</p>
+                                <!-- <p class="authors">EACL 2024 Long Paper (Oral)</p> -->
+                                <p class="description">We investigate non-autoregressive language generation by training a diffusion-based decoder that can generate plausible, coherent text rendered as images. We pair our decoder with a powerful off-the-shelf language encoder for machine translation, and compare against autoregressive transformer baselines.</p>
+                            </div>
+                        </li>
+                        <li class="publication-item">
+                            <img src="images/AP_gen.png" alt="Paper 1 thumbnail">
+                            <div class="publication-details">
+                                <h3>Can BERT Tell Me What GPT-3.5 Will Say? An
+                                    Analysis of Predictive Correlations across Language
+                                    Models</h3>
+                                <p class="authors"><b>Rajan Vivek</b><br>CS 329D Spring 2023<br> [<a href="reports/CS329D_Final_Project_Report.pdf">paper</a>]</p>
+                                <!-- <p class="authors">EACL 2024 Long Paper (Oral)</p> -->
+                                <p class="description">We investigate and characterize the phenomenon of strong correlations between the predictions of language models at the data point level. We show that correlations in the predictions of a dozen models from one family (e.g. BERT) can be used to estimate the behavior of models from another family (e.g. GPT 3.5). This work is closely related to our <a href="https://arxiv.org/abs/2309.08638">Anchor Points</a> work.</p>
+                            </div>
+                        </li>
+                        <li class="publication-item">
+                            <img src="images/benchmark_distillation.png" alt="Paper 1 thumbnail">
+                            <div class="publication-details">
+                                <h3>Benchmark Distillation: Selecting Representative
+                                    Evaluation Subsets via Component Relevance</h3>
+                                <p class="authors"><b>Rajan Vivek</b><br>CS 399 Winter 2023 (Independent Study with Douwe Kiela)<br> [<a href="reports/Winter_2023_Research_Report.pdf">paper</a>]</p>
+                                <!-- <p class="authors">EACL 2024 Long Paper (Oral)</p> -->
+                                <p class="description">We investigate a wide range of embedding and data selection strategies for extracting microsets, small subsets of evaluation benchmarks that reliably rank model performance. We discover that for techniques leveraging the <a href="https://arxiv.org/abs/2102.11005">Logarithm of Maximum Evidence</a>, the size of the microset is lower bounded by the dimensionality of the embedding space. We partially overcome this through selecting only relevant embedding components. </p>
+                            </div>
+                        </li>
+
+                        <li class="publication-item">
+                            <img src="images/mcts_agent.png" alt="Paper 1 thumbnail">
+                            <div class="publication-details">
+                                <h3>Designing a Reliable <em>Crew</em> Member</h3>
+                                <p class="authors">Matthew Harvill, <b>Rajan Vivek</b><br>CS 238 Winter 2023<br> [<a href="reports/CS_238__Final_Report.pdf">paper</a>]</p>
+                                <!-- <p class="authors">EACL 2024 Long Paper (Oral)</p> -->
+                                <p class="description">We demonstrate the effectiveness of a modified Monte Carlo Tree Search with the UCB-1 selection algorithm to play the cooperate trick-taking card game <em>The Crew</em>.</p>
+                            </div>
+                        </li>
+
+                        <li class="publication-item">
+                            <img src="images/hillclimbing.png" alt="Paper 1 thumbnail">
+                            <div class="publication-details">
+                                <h3>Benchmark Hill Climbing During Large Model
+                                    Pretraining: Some Preliminary Investigations</h3>
+                                <p class="authors"><b>Rajan Vivek</b><br>CS 399 Fall 2022 (Independent Study with Douwe Kiela)<br> [<a href="reports/Fall_2022_Research_Report.pdf">paper</a>]</p>
+                                <!-- <p class="authors">EACL 2024 Long Paper (Oral)</p> -->
+                                <p class="description">We propose a broad framework for rapidly predicting benchmark performance via
+                                    zero-shot performance on a small number of downstream examples. We investigate a few stepping stones towards
+                                    achieving this vision including assessing the correlation between zero-shot and
+                                    fine-tuned performance, as well as measuring data relatedness at both the task and
+                                    data point level through analysis of training dynamics.</p>
+                            </div>
+                        </li>
+                        
                         <!-- Add more publication items as needed -->
                     </ul>
                 </div>
@@ -68,8 +153,8 @@
         </section>
     </main>
 
-    <footer>
+    <!-- <footer>
         <p>&copy; 2024 Rajan. All rights reserved.</p>
-    </footer>
+    </footer> -->
 </body>
 </html>
